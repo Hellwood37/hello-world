@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FindThePrecious</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="headertitle">FindThePrecious</h1>
+        <nav>
+            <a href="#Fellows">Fellows</a>
+            <a href="#Contact_us">Contact us</a>
+        </nav>
+    </header>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <p>Dangerous fellowship try to destroy the ring</p>
+            <p>Orcs, Gobins, Balrogs, pretect your master Sauron</p>
+          </div>
+      
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur molestiae quaerat rem officia repellendus nesciunt esse illum! Est totam officia consectetur libero eum iusto alias sapiente accusantium, laboriosam, assumenda illo?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam a sunt adipisci blanditiis inventore minus hic aliquam nostrum nihil nulla quam officiis neque iste, laudantium itaque rem ea suscipit!</p>
+          </div>
+      
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur molestiae quaerat rem officia repellendus nesciunt esse illum! Est totam officia consectetur libero eum iusto alias sapiente accusantium, laboriosam, assumenda illo?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam a sunt adipisci blanditiis inventore minus hic aliquam nostrum nihil nulla quam officiis neque iste, laudantium itaque rem ea suscipit!</p>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section class="wanted">
+        <h2 id="wanted">Fellows wanted dead</h2>
+        <p>(or alive if you want to eat them later)</p>
+    </section>
+
+    <section class="fellows">
+        <h2 id="fellows">Fellows</h2>
+        <ul>
+            <li>
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Lorem_img_1"></a>
+                <h3>The Wizard</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quos? Perspiciatis ratione veniam distinctio velit quisquam voluptates, ipsa libero enim neque, dignissimos illo eius sint explicabo amet delectus ut! Eaque.</p>            
+            </li>
+            <li>
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Lorem_img_2"></a>
+                <h3>Hobbit #3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quos? Perspiciatis ratione veniam distinctio velit quisquam voluptates, ipsa libero enim neque, dignissimos illo eius sint explicabo amet delectus ut! Eaque.</p>            
+            </li>
+            <li>
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Lorem_img_3"></a>
+                <h3>Yummy Dwarf</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quos? Perspiciatis ratione veniam distinctio velit quisquam voluptates, ipsa libero enim neque, dignissimos illo eius sint explicabo amet delectus ut! Eaque.</p>            
+            </li>
+        </ul>      
+    </section>
+
+    <hr/>
+
+    <section class="Contact_us">
+        <h2 id="Contact_us">Contact us</h2>
+        <form action="https://www.google.fr">
+            <fieldset>
+                <legend>Contact us</legend>
+                    <div>
+                      <label for="emailinput">Your email</label>
+                      <input type="email" id="emailinput" placeholder="saruman@gmail.com" required>
+                    </div>
+                    <div>
+                      <label for="adressinput">Your adress</label>
+                      <input type="text" id="adressinput" placeholder="Your adress" required> 
+                    </div>
+                    <div>
+                        <label for="objectinput">Object</label>
+                        <input type="text" id="objectinput" placeholder="I have seen one of them">
+                    </div>
+                    <div>
+                        <label for="Message">Your message</label>
+                        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write your message"></textarea>
+                    </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>About us Fellows Join our army FAQ Reward conditions Legal mentions Sauron4Ever.com Follow him also on twitter</p>
+    </footer>
+</body>
